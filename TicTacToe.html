@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Tic Tac Toe!</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <center>
+                <div id="hintBox" class="MessageDiv">Press <b>PLAY</b> to begin!</div>
+                <div class="Grid">
+                    <table>
+                        <tr>
+                            <td>
+                                <button id="0" class="Tile Left Top" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="1" class="Tile Midl Top" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="2" class="Tile Rght Top" disabled data-tile></div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button id="3" class="Tile Left Cntr" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="4" class="Tile Midl Cntr" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="5" class="Tile Rght Cntr" disabled data-tile></div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button id="6" class="Tile Left Botm" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="7" class="Tile Modl Botm" disabled data-tile></div>
+                            </td>
+                            <td>
+                                <button id="8" class="Tile Rght Botm" disabled data-tile></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <button class="PlayButton" id="play" data-play>PLAY</button>
+                <select class="ModeSelect" id="mode" data-mode>
+                    <option value="pvp">Player vs Player</option>
+                    <option value="pvc">Player vs CPU</option>
+                </select>
+            </center>
+        </main>
+    </body>
+</html>

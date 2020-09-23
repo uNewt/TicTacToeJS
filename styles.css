@@ -1,0 +1,81 @@
+body {
+    background-color: #2C2F33;
+    font-family: Calibri;
+}
+
+main {
+    font-family: Calibri;
+}
+
+.Tile {
+    font-weight: bold;
+    display: inline-block;
+    cursor: not-allowed;
+    width: 3em;
+    height: 3em;
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 75px;
+    background-color: #23272A;
+    border: 2px solid #2C2F33;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.Tile:hover {
+    border: 2px solid #99AAB5;
+}
+
+.MessageDiv {
+    max-height: 50px;
+    font-size: 40px;
+    width: 20em;
+    height: 5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    background-color: #23272A;
+    border: 2px solid #2C2F33;
+    border-radius: 10px;
+    color: #99AAB5;
+}
+
+.PlayButton {
+    cursor: pointer;
+    max-height: 5em;
+    width: 12em;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    background-color: #7289DA;
+    border: 2px solid #2C2F33;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.ModeSelect {
+    cursor: pointer;
+    max-height: 5em;
+    width: 12em;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding-left: 20;
+    line-height: 20px;
+    background-color: #7289DA;
+    border: 2px solid #2C2F33;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.PlayButton:hover {
+    border: 2px solid #99AAB5;
+}
