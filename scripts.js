@@ -75,7 +75,11 @@ class Game {
     makeTurn(tile) {
         if (this.gameGrid[tile] !== " ") return
         this.gameGrid[tile] = this.currMarker
-        if (this.checkForWin() !== true && this.checkForDraw() !== true ) this.changeTurn()
+        if (this.checkForWin() !== true) {
+            if (this.checkForDraw() !== true) {
+                this.changeTurn()
+            }
+        }
 
         if (this.gameMode === "pvc" && this.gameEnabled === true) {
             this.gameGrid[this.getRandomTile()] = this.currMarker
